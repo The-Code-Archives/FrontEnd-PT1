@@ -31,3 +31,73 @@ body {
 .navbar a.active {
     background-color: #ddd;
 }
+
+a {
+    text-decoration: none;
+    float: right;
+    color: black;
+}
+
+.card a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    box-sizing: border-box;
+    width: 30%;
+    flex: 1;
+    max-width: calc(50% - 10px);
+    
+    
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .listinfo {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: .375rem;
+
+  }
+
+ li {
+     border: 1px solid gray;
+     
+ }
+
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    position:absolute;
+}
+
+
+footer p {
+    color: white;
+}
