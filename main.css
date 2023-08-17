@@ -64,3 +64,24 @@ a {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
+section a:hover {
+    text-decoration: underline;
+    color:red;
+}
+
+aside {
+    font-size: 10pt;
+    
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+footer p {
+    color: white;
+    display:flex;
+    justify-content: end;
+}
