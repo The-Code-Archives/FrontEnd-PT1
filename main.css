@@ -64,6 +64,22 @@ a {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
+
+  .btn {
+    border:none;
+    background-color:#04AA6D;
+    color: white;
+    padding: 8px 8px;
+    cursor:pointer;
+}
+
+.btn:hover {
+    color: yellow;
+    text-decoration: underline;
+    
+}
+
+
 section a:hover {
     text-decoration: underline;
     color:red;
