@@ -86,6 +86,25 @@ a {
      
  }
 
+.visit {
+    text-align: left;
+}
+
+.btn {
+    border:none;
+    background-color:#04AA6D;
+    color: white;
+    padding: 8px 8px;
+    cursor:pointer;
+    
+}
+
+.btn:hover {
+    color: yellow;
+    text-decoration: underline;
+    
+}
+
 
 footer {
     background-color: black;
