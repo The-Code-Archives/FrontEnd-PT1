@@ -9,7 +9,10 @@
   </head>
 
 <body>  
-        <header>
+
+        <script src="./index.js"></script>
+
+    <header>
     
         <nav class="navbar">
         <a href="./main.html">Arizona Home</a>
@@ -19,6 +22,56 @@
         </nav>
 
         </header>
+
+
+        <main>
+
+          <form>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+            
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="emailconfirmed">Confirm Email:</label>
+            <input type="email" id="emailconfirmed" name="emailconfirmed" required>
+            <span id="emailMatchMessage"></span>
+            
+            <input type="submit" value="Submit">
+          </form>
+          
+          <hr />
+          
+          <table>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Member</th>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Bastion</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Michael</td>
+              <td>Brisk</td>
+              <td>No</td>
+            </tr>
+            
+            <tr>
+              <td>Albert</td>
+              <td>Roy</td>
+              <td>Yes</td>
+            </tr>
+            </table>
+
+
+          </main>
+
 
 
         <footer>
