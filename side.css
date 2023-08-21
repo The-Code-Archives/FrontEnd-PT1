@@ -152,4 +152,14 @@ form {
     background-color: #dddddd;
   }
 
+  .references li {
+    border:none;
+
+  }
+
+  .references a {
+    text-decoration: underline;
+    color:blue;
+    float: none;
+  }
 
