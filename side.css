@@ -126,6 +126,16 @@ form {
     flex-wrap:wrap;
     flex-direction:column;
   }
+
+  input::placeholder {
+    font-weight: bold;
+   color: black;
+ }
+ 
+ textarea::placeholder {
+   font-weight: bold;
+   color: black;
+ }
   
   table {
     border-collapse: collapse;
@@ -141,3 +151,5 @@ form {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+
